@@ -11,6 +11,5 @@ public interface PilotService {
 	PilotModel getPilotDetailByLicenseNumber(String id);
 	void addPilot(PilotModel pilot);
 	void deletePilot(String licenseNumber);
-	List<PilotModel> getAllPilot();
 
 }
